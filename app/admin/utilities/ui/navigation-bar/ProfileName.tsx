@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ProfileName() {
     return (
         <div className="px-3 py-1.5 bg-slate-50 rounded border border-slate-200 justify-start items-center gap-3">
@@ -9,7 +11,7 @@ export default function ProfileName() {
                         <div className="w-3.5 h-3.5 relative">
                             <div className="w-3.5 h-3.5 left-0 top-0 absolute bg-[#1571d8] rounded-full" />
                             <div className="w-2 h-2 left-[2.80px] top-[2.80px] absolute">
-                                <img className="w-2 h-1.5 left-[0.40px] top-[1.27px] absolute" src="https://via.placeholder.com/8x6" />
+                                <img className="w-2 h-1.5 left-[0.40px] top-[1.27px] absolute" src="https://via.placeholder.com/8x6" alt="" />
                             </div>
                         </div>
                     </div>

@@ -26,7 +26,7 @@ export default function FooterCTABar() {
         </div>
         <div className="w-full md:w-4/5 flex-col md:flex-row justify-center md:justify-start items-center gap-3 flex">
           <Button className={`w-full py-3.5 bg-orange-100 text-black`}>
-            <div className="flex h-6.5 w-6">
+            <div className="flex h-7 w-6">
               <PlayStoreLogo />
             </div>
             <div className="text-left leading-none">
@@ -35,7 +35,7 @@ export default function FooterCTABar() {
             </div>
           </Button>
           <Button className={`w-full py-3.5 bg-orange-400 lg:bg-black lg:border-2 lg:border-orange-400 text-white lg:text-orange-400`}>
-            <div className="flex h-6.5 w-6 lg:hidden">
+            <div className="flex h-6 w-6 lg:hidden">
               <AppleLogo />
             </div>
             <div className="hidden lg:flex h-6.5 w-6">

@@ -6,10 +6,10 @@ import Button from "@/app/(public)/(landing-pages)/ui/shared-ui-components/Butto
 export default function NavBar() {
   return (
     <nav className="flex p-6 md:p-10 lg:px-16 lg:py-12 justify-between items-center">
-      <Link className="flex h-6 lg:h-12" href="/">
+      <Link className="flex h-6 w-20 lg:h-12 lg:w-36" href="/">
         <BrandName />
       </Link>
-      <div className="flex h-6 lg:hidden">
+      <div className="flex h-6 w-6 lg:hidden">
         <MenuIcon />
       </div>
       <div className="hidden lg:flex justify-between items-center gap-24 md:gap-12">

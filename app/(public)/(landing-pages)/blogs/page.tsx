@@ -1,7 +1,7 @@
-import HeroSection from "@/app/(public)/ui/blogs-page/page-sections/hero-section/HeroSection"
-import RecentBlogPosts from "@/app/(public)/ui/blogs-page/blog-posts/RecentBlogPosts"
-import FullBlogPosts from "@/app/(public)/ui/blogs-page/blog-posts/FullBlogPosts"
-import CallToActionSection from "@/app/(public)/ui/shared-ui-components/cta-section/CallToActionSection"
+import HeroSection from "@/app/(public)/(landing-pages)/ui/blogs-page/page-sections/hero-section/HeroSection"
+import RecentBlogPosts from "@/app/(public)/(landing-pages)/ui/blogs-page/blog-posts/RecentBlogPosts"
+import FullBlogPosts from "@/app/(public)/(landing-pages)/ui/blogs-page/blog-posts/FullBlogPosts"
+import CallToActionSection from "@/app/(public)/(landing-pages)/ui/shared-ui-components/cta-section/CallToActionSection"
 
 export default function Blogs() {
   return (

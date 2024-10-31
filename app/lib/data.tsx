@@ -1,18 +1,18 @@
-import Olivia from "@/app/(public)/ui/about-page/images/employee-cards-images/olivia.png";
-import Phoenix from "@/app/(public)/ui/about-page/images/employee-cards-images/phoenix.png";
-import Lana from "@/app/(public)/ui/about-page/images/employee-cards-images/lana.png";
-import Demi from "@/app/(public)/ui/about-page/images/employee-cards-images/demi.png";
-import Candice from "@/app/(public)/ui/about-page/images/employee-cards-images/candice.png";
-import Natali from "@/app/(public)/ui/about-page/images/employee-cards-images/natali.png";
-import Drew from "@/app/(public)/ui/about-page/images/employee-cards-images/drew.png";
-import Orlando from "@/app/(public)/ui/about-page/images/employee-cards-images/orlando.png";
+import Olivia from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/olivia.png";
+import Phoenix from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/phoenix.png";
+import Lana from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/lana.png";
+import Demi from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/demi.png";
+import Candice from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/candice.png";
+import Natali from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/natali.png";
+import Drew from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/drew.png";
+import Orlando from "@/app/(public)/(landing-pages)/ui/about-page/images/employee-cards-images/orlando.png";
 
-import FirstFeature from "@/app/(public)/ui/home-page/images/first-feature.png";
-import SecondFeature from "@/app/(public)/ui/home-page/images/second-feature.png";
-import ThirdFeature from "@/app/(public)/ui/home-page/images/third-feature.png";
-import FirstFeatureLarge from "@/app/(public)/ui/home-page/images/first-feature-md.png";
-import SecondFeatureLarge from "@/app/(public)/ui/home-page/images/second-feature-md.png";
-import ThirdFeatureLarge from "@/app/(public)/ui/home-page/images/third-feature-md.png";
+import FirstFeature from "@/app/(public)/(landing-pages)/ui/home-page/images/first-feature.png";
+import SecondFeature from "@/app/(public)/(landing-pages)/ui/home-page/images/second-feature.png";
+import ThirdFeature from "@/app/(public)/(landing-pages)/ui/home-page/images/third-feature.png";
+import FirstFeatureLarge from "@/app/(public)/(landing-pages)/ui/home-page/images/first-feature-md.png";
+import SecondFeatureLarge from "@/app/(public)/(landing-pages)/ui/home-page/images/second-feature-md.png";
+import ThirdFeatureLarge from "@/app/(public)/(landing-pages)/ui/home-page/images/third-feature-md.png";
 
 import { CompanyValue } from "@/app/lib/definitions";
 

@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lato.className}`}>
         <NavBar />
-        <main className="px-5 md:px-4 lg:px-10">{children}</main>
+        <main className="px-5 md:px-4 lg:px-10 overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>

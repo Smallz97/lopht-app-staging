@@ -5,7 +5,7 @@ import FeaturePages from "@/app/(public)/(landing-pages)/ui/home-page/components
 export default function FeaturesSection() {
   return (
     <div className="flex flex-col py-16 md:py-24 lg:py-44 bg-blue-300">
-      {/* <FeaturesSectionHeading /> */}
+      <FeaturesSectionHeading />
       <FeaturesList />
       <FeaturePages />
     </div>

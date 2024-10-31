@@ -19,8 +19,8 @@ export default function FeatureCard({
           id="feature-title"
         >
           <div className="w-12 h-12 p-1.5 bg-orange-100 border-8 border-orange-50 rounded-3xl justify-center items-center flex">
-            <div className="w-9 h-full flex justify-center items-center">
-              <div className="w-full h-full flex">
+            <div className="w-9 h-12 flex justify-center items-center">
+              <div className="w-9 h-12 flex">
                 <UserIdIcon />
               </div>
             </div>

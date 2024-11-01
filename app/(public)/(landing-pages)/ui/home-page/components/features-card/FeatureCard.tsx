@@ -26,7 +26,7 @@ export default function FeatureCard({
             </div>
           </div>
           <div className="flex flex-col gap-2 md:gap-6">
-            <div className="text-[#0f1728] max-lg:text-center text-2xl md:text-[32px] font-bold leading-loose md:bg-orange-200 rounded md:pl-3 lg:pl-2">
+            <div className="text-[#0f1728] max-lg:text-center text-xl sm:text-2xl md:text-[32px] font-bold leading-loose md:bg-orange-200 rounded md:pl-3 lg:pl-2">
               {feature}
             </div>
             <div className="self-stretch text-[#475466] text-base max-md:text-center md:text-lg font-normal leading-normal md:leading-7">

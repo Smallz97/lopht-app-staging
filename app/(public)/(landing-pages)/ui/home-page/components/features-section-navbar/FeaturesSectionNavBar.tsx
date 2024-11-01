@@ -7,7 +7,7 @@ export default function FeaturesSectionNavigationBar() {
             Administrators
           </div>
         </div>
-        <div className="py-5 rounded-full justify-center items-center grow shrink basis-0 flex">
+        <div className="py-5 rounded-xl md:rounded-full justify-center items-center grow shrink basis-0 flex">
           <div className="text-black text-xs md:text-lg font-normal leading-none">
             Communities
           </div>

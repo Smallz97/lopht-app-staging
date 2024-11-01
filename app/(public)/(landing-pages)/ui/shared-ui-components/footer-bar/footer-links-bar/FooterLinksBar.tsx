@@ -4,7 +4,7 @@ import { BrandName } from "@/app/lib/icons";
 
 export default function FooterLinksBar() {
   return (
-    <footer
+    <div
       className={`${poppins.className} pt-7 pb-3 px-4 md:px-6 lg:px-16 lg:pt-28 bg-black flex flex-col gap-16`}
     >
       <div
@@ -67,6 +67,6 @@ export default function FooterLinksBar() {
         <span className="text-orange-300">©</span> Copyright 2024 loft. All
         rights reserved
       </div>
-    </footer>
+    </div>
   );
 }

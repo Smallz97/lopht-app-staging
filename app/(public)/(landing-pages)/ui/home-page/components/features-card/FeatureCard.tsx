@@ -8,7 +8,7 @@ export default function FeatureCard({
 }: FeatureCardProps) {
   return (
     <div
-      className={`flex flex-col ${className} items-center gap-10 md:gap-24 md:px-8 lg:bg-orange-50`}
+      className={`flex flex-col ${className} items-center gap-10 md:gap-24 md:px-8 lg:bg-orange-50 lg:rounded-lg`}
     >
       <div
         className="grow shrink basis-0 flex flex-col gap-8"
@@ -18,7 +18,7 @@ export default function FeatureCard({
           className="flex-col flex gap-6"
           id="feature-title"
         >
-          <div className="w-12 h-12 p-1.5 bg-orange-100 border-8 border-orange-50 rounded-3xl justify-center items-center flex max-lg:self-center">
+          <div className="w-12 h-12 p-1.5 bg-orange-100 border-8 border-orange-100 rounded-3xl justify-center items-center flex max-lg:self-center">
             <div className="w-9 h-12 flex justify-center items-center">
               <div className="w-9 h-12 flex">
                 <UserIdIcon />

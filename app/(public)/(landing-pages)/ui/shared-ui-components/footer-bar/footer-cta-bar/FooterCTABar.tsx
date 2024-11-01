@@ -6,7 +6,7 @@ import FooterImage from "@/app/(public)/(landing-pages)/ui/shared-ui-components/
 export default function FooterCTABar() {
   return (
     <div className="flex flex-col md:flex-row-reverse md:px-3 md:py-2 lg:px-12 md:gap-3 lg:gap-24 md:bg-black">
-      <div className="flex md:basis-0 md:grow md:shrink bg-yellow-300">
+      <div className="flex md:basis-0 md:grow md:shrink">
         <Image src={FooterImage} alt={``} />
       </div>
       <div className="px-5 py-14 md:max-lg:px-2 md:py-0 md:basis-0 md:grow md:shrink bg-black flex-col justify-start md:justify-center items-center md:items-start gap-8 md:gap-6 flex">

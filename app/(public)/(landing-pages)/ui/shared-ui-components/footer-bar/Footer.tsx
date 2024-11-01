@@ -9,7 +9,7 @@ export default function Footer() {
   const homepage = pathname === "/";
 
   return (
-    <footer className="outline outline-yellow-500">
+    <footer>
       {homepage && <FooterCTABar />}
       <FooterLinksBar />
     </footer>

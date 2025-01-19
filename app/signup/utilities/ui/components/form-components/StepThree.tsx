@@ -2,8 +2,8 @@
 
 import { useRef } from "react";
 import { inter } from "@/app/fonts";
-import FormLegend from "@/app/signup/utilities/ui/components/form-components/FormLegend";
 import { UploadIcon } from "@/app/signup/utilities/lib/icons";
+import FormLegend from "@/app/signup/utilities/ui/components/form-components/FormLegend";
 import Button from "@/app/(landing-pages)/utilities/ui-components/Button/Button";
 
 export default function StepThree() {
@@ -95,9 +95,10 @@ export default function StepThree() {
                     />
                     <Button
                         onClick={handleButtonClick}
-                        children={`Browse Files`}
                         className={`rounded-md place-self-center bg-orange-400 py-2 px-4 text-white text-sm font-semibold leading-tight`}
-                    />
+                    >
+                        {`Browse Files`}
+                    </Button>
                 </div>
             </div>
         </div>

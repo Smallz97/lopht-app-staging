@@ -8,7 +8,7 @@ export default function AdminLayout({
     return (
         <div className="flex h-screen">
             <div className="overflow-y-auto basis-1/5"><Navbar /></div>
-            <div className="flex justify-center lg:pt-24 overflow-y-auto basis-4/5 bg-white">{children}</div>
+            <div className="lg:p-10 overflow-y-auto basis-4/5 bg-white">{children}</div>
         </div>
     );
 }

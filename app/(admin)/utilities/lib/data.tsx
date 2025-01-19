@@ -1,5 +1,5 @@
-import { NavLinkProps } from "@/app/(landing-pages)/utilities/lib/definitions"
-
+import { NavLinkProps } from "@/app/(landing-pages)/utilities/lib/definitions";
+import { createLinkContent } from "@/app/(admin)/utilities/lib/utils";
 import {
     DashboardIconLight,
     DashboardIconDark,
@@ -16,41 +16,41 @@ import {
 export const firstNavbarLinks: NavLinkProps[] = [
     {
         href: "Dashboard",
-        children: <DashboardIconLight />
+        children: createLinkContent(<DashboardIconLight />, "Dashboard"),
     },
     {
         href: "Analytics",
-        children: <DashboardIconDark />
+        children: createLinkContent(<DashboardIconDark />, "Analytics"),
     },
     {
         href: "Role management",
-        children: <RoleManagementIconDark />,
+        children: createLinkContent(<RoleManagementIconDark />, "Role management"),
     },
     {
         href: "Security management",
-        children: <SecurityManagementIconDark />
+        children: createLinkContent(<SecurityManagementIconDark />, "Security management"),
     },
     {
         href: "Community management",
-        children: <CommunityManagementIconDark />
+        children: createLinkContent(<CommunityManagementIconDark />, "Community management"),
     },
     {
         href: "Newsfeed",
-        children: <NewsfeedIconDark />
+        children: createLinkContent(<NewsfeedIconDark />, "Newsfeed"),
     }
 ]
 
 export const secondNavbarLinks: NavLinkProps[] = [
     {
         href: "Tasks & Reports",
-        children: <TasksandReportsIconDark />
+        children: createLinkContent(<TasksandReportsIconDark />, "Tasks & Reports"),
     },
     {
         href: "Settings",
-        children: <SettingsIconDark />
+        children: createLinkContent(<SettingsIconDark />, "Settings"),
     },
     {
         href: "Upgrade",
-        children: <UpgradePlanIconDark />
+        children: createLinkContent(<UpgradePlanIconDark />, "Upgrade"),
     }
 ]

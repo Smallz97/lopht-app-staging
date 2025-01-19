@@ -1,5 +1,4 @@
 'use client'
-
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { NavLinkProps } from "@/app/(landing-pages)/utilities/lib/definitions";
@@ -33,31 +32,22 @@ export default function Navbar() {
     }
 
     function NavbarLink({ href, children }: NavLinkProps) {
-        const pathname = usePathname()
-        const normalizedLink = href.toLowerCase().replace(/\s+/g, '-');
-        const active = pathname === href;
+        const pathname = usePathname();
+        const normalizedLink = `/${href.toLowerCase().replace(/\s+/g, '-')}`;
+        const active = pathname === normalizedLink;
 
-        return normalizedLink === "log-out" ? (
-            <Link className="items-center gap-2 flex" href={`${normalizedLink}`}>
-                <div className="w-6 h-6 justify-center items-center flex">
-                    {children}
-                </div>
-                <div className="text-red-500 text-base font-medium">{href}</div>
-            </Link>
-        ) : (
-            <Link className="p-2 items-center gap-2 flex" href={`/${normalizedLink}`}>
-                <div className="w-6 h-6 justify-center items-center flex">{children}</div>
-                <div
-                    className={`text-sm font-${active ? "extrabold" : "normal"} text-${active ? "orange-500" : "white"}`}
-                >
-                    {href}
-                </div>
+        return (
+            <Link
+                className={`items-center gap-2 flex p-2 ${active ? 'text-orange-400 font-extrabold' : 'text-black font-normal'}`}
+                href={normalizedLink}
+            >
+                {children}
             </Link>
         );
-    };
+    }
 
     return (
-        <div className="px-5 py-8 flex-col flex gap-10 bg-emerald-900">
+        <div className="px-5 py-8 flex-col flex gap-10 border border-slate-400 bg-white">
             <div className="flex w-full h-11"><BrandName /></div>
             <ProfileName />
             <div className="flex-col gap-5 flex">
@@ -71,8 +61,18 @@ export default function Navbar() {
                     <NavbarLink key={index} {...item} />
                 ))}
             </div>
-            <div className="py-3 rounded border border-slate-200 bg-white justify-center items-center flex">
-                <NavbarLink children={<LogoutIcon />} href={`Log out`} />
+            <div>
+                <Link
+                    href="/about"
+                    className="py-3 rounded border border-slate-400 justify-center items-center flex"
+                >
+                    <>
+                        <div className="w-6 h-6 justify-center items-center flex">
+                            <LogoutIcon />
+                        </div>
+                        <div className="text-red-500 text-base font-medium">Log out</div>
+                    </>
+                </Link>
             </div>
         </div>
     )
